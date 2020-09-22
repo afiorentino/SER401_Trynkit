@@ -43,6 +43,19 @@
     overflow:auto;
 }
 
+.interactiveConsole {
+	display: block;
+	position: absolute;
+	top: 750px;
+	left: 110px;
+	padding: 5px;
+}
+
+.codearea {
+	width: 200%;
+}
+
+
 
 #debugger {
     background-color: #ccd1db;
@@ -208,6 +221,13 @@
 
 body{
     background-color: #616e89;
+    position: absolute;
+    overflow: auto;
+}
+
+html{
+	overflow-y: auto;
+	scroll-behavior: smooth;
 }
 
 button{
